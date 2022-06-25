@@ -1,0 +1,23 @@
+.NavBar-App {
+    background-color: rgb(30, 75, 133);
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    padding: 10px;
+    &_block{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        &_btn{
+            border-radius: 15px;
+            border: none;
+            background-color: aqua;
+            height: 50px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+    }
+}
